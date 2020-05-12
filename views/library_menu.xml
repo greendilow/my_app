@@ -2,4 +2,14 @@
 <odoo>
   <menuitem id="menu_library"
             name="Library" />
+  <act_window id="action_library_book"
+              name="Library Books"
+              res_model="library.book"
+              view_mode="tree,form"
+  />
+  <menuitem id="menu_library_book"
+            name="Books"
+            parent="library_menu"
+            action="action_library_book"
+  />
 </odoo>
