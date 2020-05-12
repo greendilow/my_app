@@ -2,7 +2,6 @@
 <odoo>
   <menuitem id="menu_library"
             name="Library" />
-
   <!-- Action to open the Book list -->
   <act_window id="action_library_book"
     name="Library Books"
